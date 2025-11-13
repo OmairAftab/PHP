@@ -39,4 +39,15 @@ echo "<br/>";
 
 
 
+//CONSTANTS
+// constants wo hote hain jo change nhi ho skte in k start main $ b nhi lgta 
+ const wo = 9;
+echo wo;
+echo "<br/>";
+
+
+//  agar main is ko redeclare krun ga to ye error de ga
+// wo=19; its giving error
+echo wo; 
+
 ?>
