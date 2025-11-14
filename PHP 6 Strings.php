@@ -86,11 +86,33 @@ echo "<br/>";
 
 
 
-
-
 // Remove Whitespace using trim()
 echo trim($name);
 echo "<br/>";
+
+
+
+
+
+
+
+
+
+// CONCATENATE STRINGS
+$a="abc";
+$b="def";
+echo $a . $b;
+echo "<br/>";
+echo $a . "      " .$b;
+echo "<br/>";
+
+
+
+
+// By surrounding the two variables in double quotes with a white space between them, the white space will also be present in the result:
+echo "$a  $b";
+echo "<br/>";
+
 
 
 ?>
