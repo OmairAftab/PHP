@@ -115,4 +115,19 @@ echo "<br/>";
 
 
 
+
+
+
+
+
+
+
+
+// Slice a String
+// You can extract a part of a string by using the substr() function.
+// Specify the start index and the number of characters you want to return.
+$check="abcdefghijklmnopqrstuvwxyz";
+echo substr($check,3,6);
+echo "<br/>";
+
 ?>
