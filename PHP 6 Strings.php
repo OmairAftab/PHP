@@ -42,4 +42,55 @@ $kihaal="ki haal a theek o na? khush o?";
 echo strpos($kihaal,"khush");
 echo "<br/>";
 
+
+
+
+
+
+
+
+
+
+
+
+// Upper Case
+// The PHP strtoupper() function returns a string in upper case.
+echo strtoupper($kihaal);
+echo "<br/>";
+
+
+// Lower Case
+// The PHP strtolower() function returns a string in lower case.
+echo strtolower($kihaal);
+echo "<br/>";
+
+
+
+// Replace String
+// The PHP str_replace() function replaces some characters with some other characters in a string.
+// Example
+// Replace the text "World" with "Dolly":
+$change = "Hello World!";
+echo str_replace("World", "match khelna?", $change);
+echo "<br/>";
+
+
+
+// Reverse a String
+// The PHP strrev() function reverses a string.
+// Example
+// Reverse the string "Hello World!":
+$name = "   omair      aftab    ";
+echo strrev($name);
+echo "<br/>";
+
+
+
+
+
+// Remove Whitespace using trim()
+echo trim($name);
+echo "<br/>";
+
+
 ?>
