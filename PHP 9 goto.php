@@ -1,6 +1,6 @@
 <?php
 
-//got jumps to a poition specified jese yahan start k naam se bnaya hai
+//got jumps to a poition specified jese yahan start k naam se bnaya haiPHP 10
 
 $count = 1;
 
