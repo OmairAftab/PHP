@@ -66,4 +66,24 @@ function test()  {
 test();
 insidetest();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// VARIABLE FUNCTION
+function varfunc(){
+    echo "Varfunc function called <br/>";
+}
+$varfunc="varfunc";
+$varfunc();
+
 ?>
