@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 // Double quoted string literals perform operations for special characters:
 $x = "John";
@@ -129,5 +129,48 @@ echo "<br/>";
 $check="abcdefghijklmnopqrstuvwxyz";
 echo substr($check,3,6);
 echo "<br/>";
+
+?> -->
+
+
+
+
+
+
+
+<?php
+
+$name="Omair Aftab";   echo "<br/>";
+echo "Hello $name"; echo "<br/>";
+echo 'hello $name'; echo "<br/>";
+
+
+echo strlen($name); echo "<br/>";
+
+echo str_word_count($name); echo "<br/>";
+
+var_dump(str_contains($name,"air")); echo "<br/>";
+
+echo strpos($name,"Omair");echo "<br/>";
+
+echo strtoupper($name); echo "<br/>";
+
+echo strtolower($name); echo "<br/>";
+
+echo str_replace("Omair","Owais",$name); echo "<br/>";
+
+echo strrev($name); echo "<br/>";
+ 
+
+$x = "Hello";
+$y = "World";
+$z = "$x       $y";
+echo $z;
+
+$z = $x . "          " . $y; echo "<br/>";
+echo $z;  echo "<br/>";
+
+$abc="abcdefghijklmnopqrstuvwxyz";
+echo substr($abc,6,2);  echo "<br/>";
 
 ?>

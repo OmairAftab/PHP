@@ -46,6 +46,11 @@ foreach ($arr as $name) {
     echo "<br/>";
 }
 
+$colors=array("red","blue","green","white");
+foreach($colors as $color){
+  echo $color;
+  echo "<br/>";
+}
 
 
 // for assosiative array:
@@ -56,4 +61,17 @@ foreach ($arr as $name) {
            echo "<br/>";
     }
 
+
+    $associatearr=array("ai"=>"3.66","coal"=>"3.66","web"=>"3.33");
+    foreach($associatearr as $key=>$value){
+      echo "$key : $value";
+      echo "<br/>";
+    }
+
+
+    $aa=0;
+    do{
+    $aa++;
+    echo "$aa <br/>";
+    }while($aa<6)
 ?>

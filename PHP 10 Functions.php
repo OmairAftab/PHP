@@ -15,13 +15,17 @@ function sum($a,$b)  {
 
 sum(6,8);
 
+function info($name,$age){
+    echo "Your name is $name and you are $age years old <br/>";
+}
+info("omair",20);
 
 function returnfunction() {
     return "Omair Aftab";
 }
 
-echo "<h1 style:'color:blue'>my name is ".returnfunction()." .<h1/>";
-
+echo "my name is " . returnfunction();
+echo "<br/>";
 
 
 
@@ -85,5 +89,23 @@ function varfunc(){
 }
 $varfunc="varfunc";
 $varfunc();
+
+
+
+
+
+
+function sumnumbers(...$x){
+    $sum=0;
+    $len=count($x);
+
+    for($i=0;$i<$len;$i++){
+        $sum+=$x[$i];
+    }
+
+    echo("The sum of numbers is : $sum");
+}
+
+sumnumbers(1,1,8,10,80);
 
 ?>
