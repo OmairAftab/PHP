@@ -11,4 +11,7 @@ $obj1=new pro1\Product();
 
 $obj2=new pro2\Product();
 
+
+$obj1->wow();
+
 ?>

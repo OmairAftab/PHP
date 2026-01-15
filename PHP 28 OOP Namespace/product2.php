@@ -9,4 +9,9 @@ class Product{
 
 
 
+function wow(){
+        echo "WOWWW <br/>";
+    }
+
+
 ?>
