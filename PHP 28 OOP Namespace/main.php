@@ -1,0 +1,14 @@
+<?php
+
+//LEARNT FROM YT CHANNEL NAME " YAHU BABA"
+//NORMALLY IN A PHP FILE WE CANT USE 2 CLASSES WITH SAME NAME ... SO IS PROBLEM KO DOOR KRNE K LIYE NAMESPACE USE HOTI HAI . AGAR HUM 2 DIFF FILES MAIN SAME NAME KI CLASS BNA LEN 
+
+require 'product1.php';
+require 'product2.php';
+
+
+$obj1=new pro1\Product();
+
+$obj2=new pro2\Product();
+
+?>
